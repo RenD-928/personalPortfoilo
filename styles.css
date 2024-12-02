@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #c761ec72;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #6d1b86 url('https://th.bing.com/th/id/R.3aa33653e1eca47b51ae969d2d3291a7?rik=z1APOzBNvWfs%2bw&riu=http%3a%2f%2fwww.homeatlanta.com%2fhomepictures%2fcentennial+park%2fMuseum+Tower+-+Rooftop+Twilight+View+2.jpg&ehk=qgIft8JtJ1qBKA7lSpBzZwmptgZDdvsh3cWKvuCPI7s%3d&risl=&pid=ImgRaw&r=0') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    margin-top: 0;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* Borders around text inside subsections */
+section p, section ul {
+    border: 2px solid #6d1b86; /* Border color */
+    border-radius: 5px; /* Optional: rounded corners */
+    padding: 10px; /* Space between text and border */
+    margin-top: 10px; /* Space above text */
+}
+
+.project {
+    margin-bottom: 19px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
